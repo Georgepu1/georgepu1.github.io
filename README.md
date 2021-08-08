@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). Additionally, the frontend was built through components created by [tbakerx](https://github.com/tbakerx/react-resume-template/tree/master/public)
 
 ## Available Scripts
 

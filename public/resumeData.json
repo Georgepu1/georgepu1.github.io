@@ -1,0 +1,40 @@
+{
+    "main": {
+      "name": "George",
+      "occupation": "Software Engineer",
+      "description": "I'm an entering first year graduate CS student at UCLA, actively doing research in NLP under Prof. Jingbo Shang (UCSD). I'm currently a SWE Intern at Convoy, and have worked previously at AMEX and other startups. Additionally, I enjoy gyming, hiking, sports (tennis/table tennis) and gaming (ches/valo). Feel free to reach me at gnpu@g.ucla.edu",
+      "address": {
+        "city": "Los Angeles"
+      },
+      "website": "http://georgepu1.github.io",
+      "resumedownload": "https://drive.google.com/file/d/1t6Qwx2fGSBgpVz22oTH4zsFsIFotogsK/view?usp=sharing",
+      "social": [
+        {
+          "name": "linkedin",
+          "url": "https://www.linkedin.com/in/georgenpu/",
+          "className": "fa fa-linkedin"
+        },
+        {
+          "name": "github",
+          "url": "http://github.com/georgepu1",
+          "className": "fa fa-github"
+        }
+      ]
+    },
+    "resume": {
+      "education": [
+        {
+          "school": "UCLA",
+          "degree": "M.S. in Computer Science",
+          "graduated": "June 2023",
+          "description": "Starting Fall 2021 with a focus on AI"
+        },
+        {
+          "school": "UCSD",
+          "degree": "B.S. in Mathematics-Computer Science",
+          "graduated": "June 2021",
+          "description": "Cum Laude; Societies: Computer Science Student Society, Data Sciene Student Society; Minor: CogSci (ML and Neural Computation)"
+        }
+      ]
+    }
+  }
