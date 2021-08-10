@@ -105,7 +105,7 @@ header .scrolldown a {
    bottom: 30px;
    left: 50%;
    margin-left: -29px;
-   color: #2b2b2b;
+   color: #a18e8e;
    display: block;
    height: 42px;
    width: 42px;
@@ -131,7 +131,7 @@ header .scrolldown a:hover { color: #11ABB0; }
 
 /* nav-wrap */
 #nav-wrap {
-   font: 12px 'opensans-bold', sans-serif;
+   font: 14px 'opensans-bold', sans-serif;
    width: 100%;
    text-transform: uppercase;
    letter-spacing: 2.5px;
@@ -149,14 +149,17 @@ header .scrolldown a:hover { color: #11ABB0; }
 ul#nav {
    min-height: 48px;
    width: auto;
-
+   /* background-color: white;
+   color: white; */
+   background-color: none no-repeat scroll 0 0 #fff;
+   position: relative;
    /* center align the menu */
    text-align: center;
 }
 ul#nav li {
    position: relative;
    list-style: none;
-   height: 48px;
+   height: 64px;
    display: inline-block;
 }
 
@@ -167,10 +170,11 @@ ul#nav li a {
 
    display: inline-block;
    padding: 8px 13px;
-   line-height: 32px;
+   line-height: 50px;
 	text-decoration: none;
    text-align: left;
    color: #2b2b2b;
+   background-color: white;
 
 	-webkit-transition: color .2s ease-in-out;
 	-moz-transition: color .2s ease-in-out;
