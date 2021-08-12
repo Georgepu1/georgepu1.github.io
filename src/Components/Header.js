@@ -11,25 +11,6 @@ class Header extends Component {
       })
     }
 
-    var descriptions = [
-      {
-         name: '- I\'m an entering (Fall 21) first year graduate CS student at UCLA,',
-         key: '0',
-      },
-      {
-         name: '- I\'m actively doing research in NLP under Prof. Jingbo Shang (UCSD),',
-         key: '1',
-      },
-      {
-         name: '- I\'m a SWE Intern at Convoy and have worked at AMEX/other startups, and ',
-         key: '2',
-      },
-      {
-         name: '- I\'m into gyming, hiking, sports (tennis/table tennis) and gaming (chess/valo)', 
-         key: '3'
-      }
-    ];
-
     return (
       <header id="home">
 
@@ -53,7 +34,10 @@ class Header extends Component {
             </h1>
             <h3>
                <ul>
-                 { descriptions.map(desc => <li key={desc.key}>{desc.name}</li> )}
+                  <li>- I'm an entering (Fall 21) first year graduate CS student at UCLA,</li>
+                  <li>I'm actively doing research in NLP under <a href="https://shangjingbo1226.github.io/" target="_blank" rel="noopener noreferrer">Prof. Jingbo Shang (UCSD)</a>,</li>
+                  <li>- I'm a SWE Intern at Convoy and have worked at AMEX/other startups, and </li>
+                  <li>- I'm into gyming, hiking, sports (tennis/table tennis) and gaming (chess/valo)</li>
                </ul>
             </h3>
             <div>Feel free to reach me at gnpu@g.ucla.edu</div>
