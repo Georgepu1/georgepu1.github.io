@@ -34,9 +34,9 @@ class Header extends Component {
             </h1>
             <h3>
                <ul>
-                  <li>- I'm an entering (Fall 21) first year graduate CS student at UCLA,</li>
-                  <li>I'm actively doing research in NLP under <a href="https://shangjingbo1226.github.io/" target="_blank" rel="noopener noreferrer">Prof. Jingbo Shang (UCSD)</a>,</li>
-                  <li>- I'm a SWE Intern at Convoy and have worked at AMEX/other startups, and </li>
+                  <li>- I'm an entering (Fall 21) first year graduate CS student at <a href="https://www.ucla.edu/" target="_blank" rel="noopener noreferrer">UCLA</a>,</li>
+                  <li>- I'm actively doing research in NLP under <a href="https://shangjingbo1226.github.io/" target="_blank" rel="noopener noreferrer">Prof. Jingbo Shang (UCSD)</a>,</li>
+                  <li>- I'm a SWE Intern at <a href="https://convoy.com/" target="_blank" rel="noopener noreferrer">Convoy</a> and have worked at <a href="https://www.americanexpress.com/" target="_blank" rel="noopener noreferrer">AMEX</a>/other startups, and </li>
                   <li>- I'm into gyming, hiking, sports (tennis/table tennis) and gaming (chess/valo)</li>
                </ul>
             </h3>
