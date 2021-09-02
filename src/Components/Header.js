@@ -40,7 +40,7 @@ class Header extends Component {
                   <li>- I'm into gyming, hiking, sports (tennis/table tennis) 🏃 and gaming (chess/valo) ♟♟</li>
                </ul>
             </h3>
-            <div>Feel free to reach me at gnpu@g.ucla.edu</div>
+            <div>Feel free to reach me at gnpu@cs.ucla.edu</div>
             <hr />
             <ul className="social">
                {networks}
