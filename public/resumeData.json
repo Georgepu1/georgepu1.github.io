@@ -1,6 +1,6 @@
 {
     "main": {
-      "name": "George Pu",
+      "name": "George",
       "occupation": "Software Engineer",
       "address": {
         "city": "Los Angeles"
@@ -26,7 +26,7 @@
           "school": "UCLA",
           "degree": "M.S. in Computer Science",
           "graduated": "June 2023",
-          "description": "Starting Fall 2021 with a focus on AI"
+          "description": "Focus on Artificial Intelligence"
         },
         {
           "school": "UCSD",

@@ -30,14 +30,14 @@ class Header extends Component {
       <div className="row banner">
          <div className="banner-text">
             <h1 className="responsive-headline">
-               <div>Hey! I'm {name}. Currently,</div>
+               <div>Hey! I'm {name}, and </div>
             </h1>
             <h3>
                <ul>
-                  <li>- I'm an entering (Fall 21) first year graduate CS student at <a href="https://www.ucla.edu/" target="_blank" rel="noopener noreferrer" style={{ fontWeight: "bold" }}>UCLA</a> 📚</li>
+                  <li>- I'm a first year graduate CS student at <a href="https://www.ucla.edu/" target="_blank" rel="noopener noreferrer" style={{ fontWeight: "bold" }}>UCLA</a> 📚</li>
+                  <li>- I'm a recent SWE Intern at <a href="https://convoy.com/" target="_blank" rel="noopener noreferrer" style={{ fontWeight: "bold" }}>Convoy</a> and have worked at <a href="https://www.americanexpress.com/" target="_blank" rel="noopener noreferrer" style={{ fontWeight: "bold" }}>AMEX</a>/other startups 🧑🏻‍💻</li>
                   <li>- I'm actively doing research in NLP under <a href="https://shangjingbo1226.github.io/" target="_blank" rel="noopener noreferrer" style={{ fontWeight: "bold" }}>Prof. Jingbo Shang (UCSD)</a>📄</li>
-                  <li>- I'm a SWE Intern at <a href="https://convoy.com/" target="_blank" rel="noopener noreferrer" style={{ fontWeight: "bold" }}>Convoy</a> and have worked at <a href="https://www.americanexpress.com/" target="_blank" rel="noopener noreferrer" style={{ fontWeight: "bold" }}>AMEX</a>/other startups 🧑🏻‍💻</li>
-                  <li>- I'm into gyming, hiking, sports (tennis/table tennis) 🏃 and gaming (chess/valo) ♟♟</li>
+                  <li>- I'm into gyming, hiking, and sports (tennis/table tennis) 🏃</li>
                </ul>
             </h3>
             <div>Feel free to reach me at gnpu@cs.ucla.edu</div>
