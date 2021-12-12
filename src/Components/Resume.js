@@ -16,7 +16,7 @@ class Resume extends Component {
         <div className="row education">
           <div style={{ paddingBottom: '100px' }}> 
             <div className="three columns header-col">
-              <h1><span>Blogs</span></h1>
+              <h1><span>Blogs/Research</span></h1>
             </div>
             <div className="nine columns main-col">
               <div className="row item">
@@ -31,6 +31,53 @@ class Resume extends Component {
                       </a>
                       <div>
                         Convoy Medium Tech Blog about my summer work on an Open Source data discovery engine.
+                      </div>
+                      <hr/>
+                  </div>
+                  <div>
+                      <a 
+                        href="https://drive.google.com/file/d/1W_etWs7Q6wvmT5_jVljHnPtPq9qAcpXT/view?usp=sharing" 
+                        target="_blank" 
+                        rel="noopener noreferrer" 
+                        style={{ fontWeight: "bold" }}>
+                        Bias-Variance Tradeoff Under Noisy Dataset Labels: Where Smaller Models are Preferred (Click to view)
+                      </a>
+                      <div>
+                        CS 260 (Machine Learning Algorithms) Final Project &nbsp;
+                        <a 
+                          href="https://github.com/Georgepu1/CS-260-Project" 
+                          target="_blank" 
+                          rel="noopener noreferrer" 
+                          style={{ fontWeight: "bold" }}>
+                          [Code] 
+                        </a> &nbsp;
+                        <a 
+                          href="https://drive.google.com/file/d/13P38KDHs_sFH6Ai6ZqSkwkvriyjWLZMA/view?usp=sharing" 
+                          target="_blank" 
+                          rel="noopener noreferrer" 
+                          style={{ fontWeight: "bold" }}>
+                          [Slides]
+                        </a>
+                      </div>
+                      <hr/>
+                  </div>
+                  <div>
+                      <a 
+                        href="https://drive.google.com/file/d/1hUUQnbwSLbBa2aMj7F1JuVfGxAqQuLSI/view?usp=sharing" 
+                        target="_blank" 
+                        rel="noopener noreferrer" 
+                        style={{ fontWeight: "bold" }}>
+                        Knowledge Graph Entity Alignment (Click to view)
+                      </a>
+                      <div>
+                        CS 245 (Big Data Analytics) Final Project &nbsp;
+                        <a 
+                          href="https://github.com/tluccs/CS245_final_project" 
+                          target="_blank" 
+                          rel="noopener noreferrer" 
+                          style={{ fontWeight: "bold" }}>
+                          [Code] 
+                        </a>
                       </div>
                       <hr/>
                   </div>
