@@ -93,7 +93,6 @@ class Resume extends Component {
             <div className="row item">
               <div className="twelve columns">
                 {education}
-                {console.log(education)}
               </div>
             </div>
           </div>

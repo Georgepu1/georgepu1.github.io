@@ -25,14 +25,14 @@
         {
           "school": "UCLA",
           "degree": "M.S. in Computer Science",
-          "graduated": "June 2023",
+          "graduated": "Sept. 2021 - June 2023",
           "description": "Focus on Artificial Intelligence"
         },
         {
           "school": "UCSD",
-          "degree": "B.S. in Mathematics-Computer Science",
-          "graduated": "June 2021",
-          "description": "Cum Laude; Societies: Computer Science Student Society, Data Sciene Student Society; Minor: CogSci (ML and Neural Computation)"
+          "degree": "B.S. in Mathematics-Computer Science (Cum Laude)",
+          "graduated": "Sept. 2018 - June 2021",
+          "description": "Minor in CogSci (ML and Neural Computation)"
         }
       ]
     }
