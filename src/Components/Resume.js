@@ -36,6 +36,19 @@ class Resume extends Component {
                   </div>
                   <div>
                       <a 
+                        href="https://medium.com/@georgepu/discovering-and-categorising-language-biases-in-reddit-literature-review-57f40e6dd7e0" 
+                        target="_blank" 
+                        rel="noopener noreferrer" 
+                        style={{ fontWeight: "bold" }}>
+                        Literature Review on "Discovering and Categorising Language Biases in Reddit"
+                      </a>
+                      <div>
+                        CS 269 (Fairness in NLP).
+                      </div>
+                      <hr/>
+                  </div>
+                  <div>
+                      <a 
                         href="https://drive.google.com/file/d/1W_etWs7Q6wvmT5_jVljHnPtPq9qAcpXT/view?usp=sharing" 
                         target="_blank" 
                         rel="noopener noreferrer" 
