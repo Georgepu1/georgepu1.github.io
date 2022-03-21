@@ -36,11 +36,38 @@ class Resume extends Component {
                   </div>
                   <div>
                       <a 
+                        href="https://drive.google.com/file/d/1wEYD0OkM9VtW5x_egMUdMQYxcbipGgu-/view?usp=sharing" 
+                        target="_blank" 
+                        rel="noopener noreferrer" 
+                        style={{ fontWeight: "bold" }}>
+                        A Robust Sentiment Analysis Regarding to Financial News Data (Click to view)
+                      </a>
+                      <div>
+                        CS 269 (Fairness in NLP) Final Project &nbsp;
+                        <a 
+                          href="https://github.com/yw7vvAW611/CS269GroupProject/" 
+                          target="_blank" 
+                          rel="noopener noreferrer" 
+                          style={{ fontWeight: "bold" }}>
+                          [Code] 
+                        </a> &nbsp;
+                        <a 
+                          href="https://drive.google.com/file/d/1wiiiDME0hEsGfUcrZ899mUcxsb79jPp-/view" 
+                          target="_blank" 
+                          rel="noopener noreferrer" 
+                          style={{ fontWeight: "bold" }}>
+                          [Video]
+                        </a>
+                      </div>
+                      <hr/>
+                  </div>
+                  <div>
+                      <a 
                         href="https://medium.com/@georgepu/discovering-and-categorising-language-biases-in-reddit-literature-review-57f40e6dd7e0" 
                         target="_blank" 
                         rel="noopener noreferrer" 
                         style={{ fontWeight: "bold" }}>
-                        Literature Review on "Discovering and Categorising Language Biases in Reddit"
+                        Literature Review on "Discovering and Categorising Language Biases in Reddit" (Click to view)
                       </a>
                       <div>
                         CS 269 (Fairness in NLP).
