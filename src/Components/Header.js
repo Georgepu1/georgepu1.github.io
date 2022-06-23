@@ -37,7 +37,7 @@ class Header extends Component {
                   I'm a first year graduate CS student at <a href="https://www.ucla.edu/" target="_blank" rel="noopener noreferrer" style={{ fontWeight: "bold" }}>UCLA</a>. 
                       My technical interests are in  intelligent information extraction, organization, generation, and delivery. 
                       I've co-authored a patent application on prompt-based and interactive info capture and retrieval (with ML/DL/NLP/CV techniques), and I am working on other patent/technical areas for intelligent navigation and search result optimization. 
-                      Along with this, I'm actively researching ML/DL/NLP (Past: <a href="https://shangjingbo1226.github.io/" target="_blank" rel="noopener noreferrer" style={{ fontWeight: "bold" }}>Prof. Jingbo Shang @ UCSD</a>). 
+                      Along with this, I'm actively researching ML/DL/NLP (Current: <a href="http://web.cs.ucla.edu/~kwchang/" target="_blank" rel="noopener noreferrer" style={{ fontWeight: "bold" }}>Prof. Kai-Wei Chang @ UCLA</a>; Past: <a href="https://shangjingbo1226.github.io/" target="_blank" rel="noopener noreferrer" style={{ fontWeight: "bold" }}>Prof. Jingbo Shang @ UCSD</a>). 
                       I've been a SWE Intern at <a href="https://convoy.com/" target="_blank" rel="noopener noreferrer" style={{ fontWeight: "bold" }}>Convoy </a> (2x), <a href="https://www.americanexpress.com/" target="_blank" rel="noopener noreferrer" style={{ fontWeight: "bold" }}>AMEX</a>, and incubator startups.
                       Lastly, I'm into gyming, traveling/hiking, and sports (tennis/table tennis).
                   
