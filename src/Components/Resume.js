@@ -27,10 +27,50 @@ class Resume extends Component {
                         target="_blank" 
                         rel="noopener noreferrer" 
                         style={{ fontWeight: "bold" }}>
-                        Integrating Slack with Amundsen for Ease of Data Discovery (Click to view)
+                        Blog: Integrating Slack with Amundsen for Ease of Data Discovery
                       </a>
                       <div>
                         Convoy Medium Tech Blog about my summer work on an Open Source data discovery engine.
+                      </div>
+                      <hr/>
+                  </div>
+                  <div>
+                      <a 
+                        href="https://drive.google.com/file/d/1Kq6GLw_M7QsdzKNrbgaL4HINuySKm2YJ/view?usp=sharing" 
+                        target="_blank" 
+                        rel="noopener noreferrer" 
+                        style={{ fontWeight: "bold" }}>
+                        Research: Robustness of Multi-Task Learning on Different NLP Subtasks
+                      </a>
+                      <div>
+                        CS 263 (Natural Language Processing) Final Project &nbsp;
+                        <a 
+                          href="https://github.com/Georgepu1/cs263-final-project" 
+                          target="_blank" 
+                          rel="noopener noreferrer" 
+                          style={{ fontWeight: "bold" }}>
+                          [Code] 
+                        </a>
+                      </div>
+                      <hr/>
+                  </div>
+                  <div>
+                      <a 
+                        href="https://drive.google.com/file/d/155h681INEFzzbg65jcOn3KATh9-s-cPb/view?usp=sharing" 
+                        target="_blank" 
+                        rel="noopener noreferrer" 
+                        style={{ fontWeight: "bold" }}>
+                        Research: Does Robustness with NLP improve source attack transferability
+                      </a>
+                      <div>
+                        CS 269 (Adversarial Robustness in NLP) Final Project &nbsp;
+                        <a 
+                          href="https://colab.research.google.com/drive/1qg7XMmxDO-fNXKn-RuqSERYbPJV7yWZg?usp=sharing" 
+                          target="_blank" 
+                          rel="noopener noreferrer" 
+                          style={{ fontWeight: "bold" }}>
+                          [Code] 
+                        </a>
                       </div>
                       <hr/>
                   </div>
@@ -40,7 +80,7 @@ class Resume extends Component {
                         target="_blank" 
                         rel="noopener noreferrer" 
                         style={{ fontWeight: "bold" }}>
-                        A Robust Sentiment Analysis Regarding to Financial News Data (Click to view)
+                        Research: A Robust Sentiment Analysis Regarding to Financial News Data
                       </a>
                       <div>
                         CS 269 (Fairness in NLP) Final Project &nbsp;
@@ -67,7 +107,7 @@ class Resume extends Component {
                         target="_blank" 
                         rel="noopener noreferrer" 
                         style={{ fontWeight: "bold" }}>
-                        Literature Review on "Discovering and Categorising Language Biases in Reddit" (Click to view)
+                        Blog: "Discovering and Categorising Language Biases in Reddit"
                       </a>
                       <div>
                         CS 269 (Fairness in NLP).
@@ -80,7 +120,7 @@ class Resume extends Component {
                         target="_blank" 
                         rel="noopener noreferrer" 
                         style={{ fontWeight: "bold" }}>
-                        Bias-Variance Tradeoff Under Noisy Dataset Labels: Where Smaller Models are Preferred (Click to view)
+                        Research: Bias-Variance Tradeoff Under Noisy Dataset Labels: Where Smaller Models are Preferred
                       </a>
                       <div>
                         CS 260 (Machine Learning Algorithms) Final Project &nbsp;
@@ -107,7 +147,7 @@ class Resume extends Component {
                         target="_blank" 
                         rel="noopener noreferrer" 
                         style={{ fontWeight: "bold" }}>
-                        Knowledge Graph Entity Alignment (Click to view)
+                        Research: Knowledge Graph Entity Alignment
                       </a>
                       <div>
                         CS 245 (Big Data Analytics) Final Project &nbsp;

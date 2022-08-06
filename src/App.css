@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Heebo:regular,bold,light&subset=latin,latin-ext');
+
+
+body, html {
+  font-family: Helvetica;
+}
+
+.content-container{ 
+  width: 100vw;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content{ 
+  min-width: 500px;
+}
+
+.greeting-header {
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.greeting-text {
+  width: 35vw;
+  font-size: 18px;
+}
+
+.about-points {
+  font-size: 18px;
+}
+
+.links-container {
+  margin-top: 30px;
+  display: flex; 
+  justify-content: center;
+}
+
+.links {
+  color: #828282;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  font-size: 15px;
+  justify-content: space-evenly;
+}
+
+a.link-text {
+  color: #828282;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+a.about-links {
+  /* color: black; */
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+ul {
+  line-height: 150%;
+}
+
+
+.switch-mode-button {
+  /* position: absolute;
+  right:    0;
+  bottom:   0; */
+
+  /* margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  margin-left: 20px; */
+}
+
+.wave:hover {
+  animation-name: wave-animation; 
+  animation-duration: 1.2s;       
+  animation-iteration-count: infinite; 
+  transform-origin: 70% 70%;      
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+  0% { transform: rotate( 0.0deg) }
+ 10% { transform: rotate(14.0deg) }  
+ 20% { transform: rotate(-8.0deg) }
+ 30% { transform: rotate(14.0deg) }
+ 40% { transform: rotate(-4.0deg) }
+ 50% { transform: rotate(10.0deg) }
+ 60% { transform: rotate( 0.0deg) } 
+100% { transform: rotate( 0.0deg) }
+}
