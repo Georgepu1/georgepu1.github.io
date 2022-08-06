@@ -12,7 +12,7 @@ class Resume extends Component {
     }
 
     return (
-      <section id="resume">
+      <section id="about">
         <div className="row education">
           <div style={{ paddingBottom: '100px' }}> 
             <div className="three columns header-col">

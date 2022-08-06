@@ -4,13 +4,13 @@ import $ from 'jquery';
 import './App.css';
 import Header from './Components/Header';
 import Resume from './Components/Resume';
+import Education from './Components/Education';
 
 class App extends Component {
 
   constructor(props){
     super(props);
     this.state = {
-      foo: 'bar',
       resumeData: {}
     };
 
@@ -43,6 +43,7 @@ class App extends Component {
       <div className="App">
         <Header data={this.state.resumeData.main}/>
         <Resume data={this.state.resumeData.resume}/>
+        <Education data={this.state.resumeData.resume}/>
       </div>
     );
   }
