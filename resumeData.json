@@ -24,15 +24,17 @@
       "education": [
         {
           "school": "UCLA",
-          "degree": "M.S. in Computer Science",
+          "degree": "M.S. in Computer Science (Focus in AI/ML)",
           "graduated": "Sept. 2021 - (expected) June 2023",
-          "description": "Focus on Artificial Intelligence"
+          "description": "Focus on Artificial Intelligence",
+          "courses": ["CS 118 | Computer Networking", "CS 131 | Programming Languages", "CS 161 | Artificial Intelligence", "CS 245 | Big Data Analytics", "CS 260 | Machine Learning Algorithms", "CS 262A | Learning and Reasoning with Bayesian Networks", "CS 263 | Natural Language Processing", "CS 269 | Fairness and Accountability in NLP", "CS 269 | Adversarial Robustness in Machine Learning"]
         },
         {
           "school": "UCSD",
           "degree": "B.S. in Mathematics-Computer Science (Cum Laude)",
           "graduated": "Sept. 2018 - June 2021",
-          "description": "Minor: Cognitive Science (ML and Neural Computation)"
+          "description": "Minor: Cognitive Science (ML and Neural Computation)",
+          "courses": ["CS 11 | Object Oriented Programming", "CS 15L | Software Tools & Techniques", "CS 30 | Computer Organization & Systems Programming", "CS 100 | Advanced Data Structures", "CS 101 | Design and Analysis of Algorithms", "CS 105 | Theory of Computation", "CS 140 | Component Design and Design Tech/Digital Systems", "MATH 20C/D/E | Calculus, Differential Equations, Vector Calculus", "MATH 109 | Mathematical Reasoning", "MATH 170A | Numerical Analysis and Linear Programming", "MATH 180A | Intro to Probability", "COGS 118A | Supervised Machine Learning Algorithms", "COGS 181 | Neural Networks/DL"]
         }
       ]
     }
