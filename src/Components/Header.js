@@ -4,7 +4,6 @@ class Header extends Component {
   render() {
 
     if(this.props.data){
-      var name = this.props.data.name;
       var resumeDownload = this.props.data.resumedownload;
       var networks= this.props.data.social.map(function(network){
         return <li style={{padding: '10px'}} key={network.name}><a target="_blank" rel="noopener noreferrer" href={network.url}><i className={network.className}></i></a></li>
@@ -22,7 +21,7 @@ class Header extends Component {
          <ul style={{backgroundColor: 'white'}}id="nav" className="nav">
             <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
 	         <li><a className="smoothscroll" href="#about">About</a></li>
-            <li><a className="smoothscroll" href="#education">Education</a></li>
+            <li><a className="smoothscroll" href="#edu">Education</a></li>
          </ul>
 
       </nav>
@@ -38,7 +37,7 @@ class Header extends Component {
                <ul>
                   <li>📚 Second year CS grad student at <a href="https://ucla.edu/" target="_blank" rel="noopener noreferrer" style={{ fontWeight: "bold" }}>UCLA</a> and received my B.S. in Math-Computer Science at <a href="https://ucsd.edu/" target="_blank" rel="noopener noreferrer" style={{ fontWeight: "bold" }}>UCSD</a></li>
                   <li>🔎 Interested in intelligent information extraction, organization, generation, and delivery for efficient knowledge comprehension within different domains</li>
-                  <li>📝 Publishing utility patents on <a href="https://patents.justia.com/patent/20210042662" target="_blank" rel="noopener referrer"style={{ fontWeight: "bold" }}> Interactive Information Capture and Retrieval with prompt-based methods</a>, intelligent app navigation (draft), and dynamic search optimization (draft)</li>
+                  <li>📝 Publishing utility patents on <a href="https://patents.justia.com/patent/20210042662" target="_blank" rel="noopener noreferrer"style={{ fontWeight: "bold" }}> Interactive Information Capture and Retrieval with prompt-based methods</a>, intelligent app navigation (draft), and dynamic search optimization (draft)</li>
                   <li>🧑‍🔬 Actively researching ML/NLP with the <a href="http://web.cs.ucla.edu/~kwchang/publications_area/" target="_blank" rel="noopener noreferrer" style={{ fontWeight: "bold" }}>UCLA-NLP</a> lab under Prof. Kai-Wei Chang. (Past: <a href="https://shangjingbo1226.github.io/" target="_blank" rel="noopener noreferrer" style={{ fontWeight: "bold" }}>Prof. Jingbo Shang @ UCSD</a>)</li>
                   <li>💻 Worked as a SWE Intern at <a href="https://convoy.com/" target="_blank" rel="noopener noreferrer" style={{ fontWeight: "bold" }}>Convoy </a> (2x), <a href="https://www.americanexpress.com/" target="_blank" rel="noopener noreferrer" style={{ fontWeight: "bold" }}>AMEX</a>, and incubator startups</li>
                   <li>🏃‍♂️ Enjoy hiking, gyming, and playing/watching many sports 🎾🏓🏀! </li>

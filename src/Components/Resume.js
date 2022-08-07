@@ -3,14 +3,6 @@ import React, { Component } from 'react';
 class Resume extends Component {
   render() {
 
-    if(this.props.data){
-      var education = this.props.data.education.map(function(education){
-        return <div key={education.school}><h3>{education.school}</h3>
-        <p className="info">{education.degree} <span>&bull;</span><em className="date">{education.graduated}</em></p>
-        <p>{education.description}</p></div>
-      })
-    }
-
     return (
       <section id="about">
         <div className="row education">
@@ -159,20 +151,8 @@ class Resume extends Component {
                           [Code] 
                         </a>
                       </div>
-                      <hr/>
                   </div>
                 </div>
-              </div>
-            </div>
-          </div>
-          <hr/>
-          <div className="three columns header-col">
-            <h1><span>Education</span></h1>
-          </div>
-          <div className="nine columns main-col">
-            <div className="row item">
-              <div className="twelve columns">
-                {education}
               </div>
             </div>
           </div>
