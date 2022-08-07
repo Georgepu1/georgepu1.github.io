@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 
-class Resume extends Component {
+class Projects extends Component {
   render() {
 
     return (
-      <section id="about">
+      <section id="projs">
         <div className="row education">
           <div style={{ paddingBottom: '100px' }}> 
             <div className="three columns header-col">
@@ -163,4 +163,4 @@ class Resume extends Component {
   }
 }
 
-export default Resume;
+export default Projects;

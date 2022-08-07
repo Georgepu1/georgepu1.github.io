@@ -192,48 +192,48 @@ ul#nav li.current a { color: #11ABB0; }
 /* d. Resume Section
 /* ------------------------------------------------------------------ */
 
-#about {
+#projs {
    background: #fff;
    padding-top: 90px;
    padding-bottom: 72px;
    overflow: hidden;
 }
 
-#about a, #about a:visited  { color: rgb(122, 122, 122); }
-#about a:hover, #about a:focus { color: #11ABB0; }
+#projs a, #projs a:visited  { color: rgb(122, 122, 122); }
+#projs a:hover, #projs a:focus { color: #11ABB0; }
 
-#about h1 {
+#projs h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
 }
-#about h1 span {
+#projs h1 span {
    border-bottom: 3px solid #11ABB0;
    padding-bottom: 6px;
 }
-#about h3 {
+#projs h3 {
    font: 25px/30px 'opensans-bold', sans-serif;
 }
 
-#about .header-col { padding-top: 9px; }
-#about .main-col { padding-right: 10%; }
+#projs .header-col { padding-top: 9px; }
+#projs .main-col { padding-right: 10%; }
 
 .education, .work {
    margin-bottom: 48px;
    padding-bottom: 24px;
    border-bottom: 1px solid #E8E8E8;
 }
-#about .info {
+#projs .info {
    font: 16px/24px 'librebaskerville-italic', serif;
    color: #2b2b2b;
    margin-bottom: 18px;
    margin-top: 9px;
 }
-#about .info span {
+#projs .info span {
    margin-right: 5px;
    margin-left: 5px;
 }
-#about .date {
+#projs .date {
    font: 15px/24px 'opensans-regular', sans-serif;
    margin-top: 6px;
 }

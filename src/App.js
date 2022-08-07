@@ -3,7 +3,7 @@ import ReactGA from 'react-ga';
 import $ from 'jquery';
 import './App.css';
 import Header from './Components/Header';
-import Resume from './Components/Resume';
+import Projects from './Components/Projects';
 import Education from './Components/Education';
 
 class App extends Component {
@@ -42,7 +42,7 @@ class App extends Component {
     return (
       <div className="App">
         <Header data={this.state.resumeData.main}/>
-        <Resume data={this.state.resumeData.resume}/>
+        <Projects data={this.state.resumeData.resume}/>
         <Education data={this.state.resumeData.resume}/>
       </div>
     );
