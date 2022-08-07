@@ -5,10 +5,11 @@ class Education extends Component {
 
     if(this.props.data){
       var education = this.props.data.education.map(function(education){
-        return <div style={{padding: "20px" }} key={education.school}><h3>{education.school}</h3>
+        return <div key={education.school}><h3>{education.school}</h3>
             <p className="info">{education.degree} <span>&bull;</span><em className="date">{education.graduated}</em></p>
             <div style={{fontWeight: "bold"}}>Selected Courses</div>
             {education.courses.map((course) => <div><em className="date">{course}</em><span/></div>)}
+            <hr/>
         </div>
       })
     }

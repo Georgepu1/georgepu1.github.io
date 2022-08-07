@@ -151,6 +151,7 @@ class Resume extends Component {
                           [Code] 
                         </a>
                       </div>
+                    <hr />
                   </div>
                 </div>
               </div>
