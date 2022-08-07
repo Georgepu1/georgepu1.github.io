@@ -260,6 +260,7 @@ ul#nav li.current a { color: #11ABB0; }
 }
 #edu h3 {
    font: 25px/30px 'opensans-bold', sans-serif;
+   padding-top: 10px;
 }
 
 #edu .header-col { padding-top: 9px; }
