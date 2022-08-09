@@ -19,9 +19,9 @@ class Header extends Component {
 	      <a className="mobile-btn" href="#home" title="Hide navigation">Hide navigation</a>
 
          <ul style={{backgroundColor: 'white'}} id="nav" className="nav">
-            <li><a className="smoothscroll" href="#home">Home</a></li>
-	         <li><a className="smoothscroll" href="https://georgepu1.github.io/#projs">Projects</a></li>
-            <li><a className="smoothscroll" href="https://georgepu1.github.io/#edu">Education</a></li>
+            <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
+	         <li><a className="smoothscroll" href="#projs">Projects</a></li>
+            <li><a className="smoothscroll" href="#edu">Education</a></li>
          </ul>
 
       </nav>

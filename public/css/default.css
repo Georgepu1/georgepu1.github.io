@@ -434,11 +434,11 @@ dd { margin: 0 0 0 20px; }
    background: #838A91;
    color: #fff;
 }
-/* .pagination .current,
+.pagination .current,
 .pagination .current:hover {
    background-color: #11ABB0;
    color: #fff;
-} */
+}
 .pagination .inactive,
 .pagination .inactive:hover {
    background-color: #E6E8EB;
