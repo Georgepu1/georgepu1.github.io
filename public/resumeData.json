@@ -34,7 +34,7 @@
           "degree": "B.S. in Mathematics-Computer Science (Cum Laude)",
           "graduated": "Sept. 2018 - June 2021",
           "description": "Minor: Cognitive Science (ML and Neural Computation)",
-          "courses": ["CS 11 | Object Oriented Programming", "CS 15L | Software Tools & Techniques", "CS 30 | Computer Organization & Systems Programming", "CS 100 | Advanced Data Structures", "CS 101 | Design and Analysis of Algorithms", "CS 105 | Theory of Computation", "CS 140 | Component Design and Design Tech/Digital Systems", "MATH 20C/D/E | Calculus, Differential Equations, Vector Calculus", "MATH 109 | Mathematical Reasoning", "MATH 170A | Numerical Analysis and Linear Programming", "MATH 180A | Intro to Probability", "COGS 118A | Supervised Machine Learning Algorithms", "COGS 181 | Neural Networks/DL"]
+          "courses": ["CS 11 | Object Oriented Programming", "CS 15L | Software Tools & Techniques", "CS 30 | Computer Organization & Systems Programming", "CS 100 | Advanced Data Structures", "CS 101 | Design and Analysis of Algorithms", "CS 105 | Theory of Computation", "CS 140 | Component Design and Design Tech/Digital Systems", "MATH 20C/D/E | Calculus, Differential Equations, Vector Calculus", "MATH 103A/B | Modern (Abstract) Algebra", "MATH 109 | Mathematical Reasoning", "MATH 170A | Intro Numerical Analysis", "MATH 171A | Intro Numerical Optimization/Linear Programming", "MATH 180A | Intro to Probability", "MATH 184 | Enumerative Combinatorics", "MATH 187A/B | Math of Modern Cryptography", "COGS 108 | Data Science in Practice", "COGS 118A | Supervised Machine Learning Algorithms", "COGS 181 | Neural Networks/DL"]
         }
       ]
     }
