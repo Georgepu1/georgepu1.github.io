@@ -35,7 +35,7 @@ class Header extends Component {
             </h1>
             <h3>
                <ul>
-                  <li style={{padding: '3px'}}>📚 Second year CS grad student at <a href="https://ucla.edu/" target="_blank" rel="noopener noreferrer" style={{ fontWeight: "bold" }}>UCLA</a></li>
+                  <li style={{padding: '3px'}}>📚 Second year CS grad student at <a href="https://www.ucla.edu/" target="_blank" rel="noopener noreferrer" style={{ fontWeight: "bold" }}>UCLA</a></li>
                   <li style={{padding: '3px'}}>🔎 Interested in better capturing the information around us with more intelligence and automation</li>
                   <li style={{padding: '3px'}}>📝 Publishing utility patents on <a href="https://patents.justia.com/patent/20210042662" target="_blank" rel="noopener noreferrer"style={{ fontWeight: "bold" }}> Interactive Information Capture and Retrieval with Prompts</a>, Intelligent App Navigation (draft), and Dynamic Search Optimization (draft)</li>
                   <li style={{padding: '3px'}}>🧑‍🔬 Researching ML/NLP with the <a href="http://web.cs.ucla.edu/~kwchang/publications_area/" target="_blank" rel="noopener noreferrer" style={{ fontWeight: "bold" }}>UCLA-NLP</a> lab under <a href="http://web.cs.ucla.edu/~kwchang/" target="_blank" rel="noopener noreferrer" style={{ fontWeight: "bold" }}>Prof. Kai-Wei Chang</a>. (Past: <a href="https://shangjingbo1226.github.io/lab/" target="_blank" rel="noopener noreferrer" style={{ fontWeight: "bold" }}>SDLab</a> under <a href="https://shangjingbo1226.github.io/" target="_blank" rel="noopener noreferrer" style={{ fontWeight: "bold" }}>Jingbo Shang (UCSD)</a>)</li>
