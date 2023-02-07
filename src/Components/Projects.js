@@ -19,7 +19,7 @@ class Projects extends Component {
                                             target="_blank"
                                             rel="noopener noreferrer"
                                             style={{ fontWeight: "bold" }}>
-                                            Submitted paper for ICLR workshop (Mathematical and Empirical Understanding of Foundation Models)
+                                            Submission to ICLR workshop (Mathematical and Empirical Understanding of Foundation Models)
                                         </a>
                                         <div>
                                             First-author. More details to come.
@@ -57,7 +57,7 @@ class Projects extends Component {
                                             Effects of Sample-Weighted Loss Functions on Pruning and Robustness
                                         </a>
                                         <div>
-                                            CS 260-D (Large-Scale Machine Learning) Final Project
+                                            CS 260D (Large-Scale Machine Learning) Final Project
                                         </div>
                                         <hr />
                                     </div>
