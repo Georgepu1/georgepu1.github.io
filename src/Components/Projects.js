@@ -15,14 +15,15 @@ class Projects extends Component {
                                 <div className="twelve columns">
                                     <div>
                                         <a
-                                            href="#"
+                                            href="https://openreview.net/pdf?id=HB7zDQ4mvX"
                                             target="_blank"
                                             rel="noopener noreferrer"
                                             style={{ fontWeight: "bold" }}>
-                                            Submission to ICLR workshop (Mathematical and Empirical Understanding of Foundation Models)
+                                            Empirical Analysis of the Strengths and Weaknesses of PEFT Techniques for LLMs
                                         </a>
                                         <div>
-                                            First-author. More details to come.
+                                            First-author publication accepted in ICLR workshop (Mathematical and Empirical Understanding of Foundation Models).
+                                            TL;DR: We provide a framework for choosing the optimal PEFT techniques, based on task type and data availability, and empirically prove slower PEFT convergence compared to full tuning and include PEFT optimization methods.
                                         </div>
                                         <hr />
                                     </div>
