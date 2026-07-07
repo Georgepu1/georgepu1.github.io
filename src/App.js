@@ -12,6 +12,18 @@ const research = [
   {
     title: 'LHAW: Controllable Underspecification for Long-Horizon Tasks',
     meta: 'Preprint, 2026',
+    authors: [
+      'George Pu',
+      'Michael S. Lee',
+      'Udari Madhushani Sehwag',
+      'David J. Lee',
+      'Bryan Zhu',
+      'Yash Maurya',
+      'Mohit Raghavendra',
+      'Yuan Xue',
+      'Samuel Marc Denton',
+    ],
+    equalContribution: ['George Pu', 'Michael S. Lee'],
     links: [
       { label: 'paper', href: 'https://arxiv.org/abs/2602.10525' },
       { label: 'code', href: 'https://github.com/scaleapi/lhaw' },
@@ -19,81 +31,85 @@ const research = [
       { label: 'tweet', href: 'https://x.com/samueldenton/status/2023878235214536912' },
     ],
     summary:
-      'A dataset-agnostic pipeline for generating underspecified variants of long-horizon agent tasks and empirically validating the resulting ambiguity through agent execution.',
-    takeaways: [
-      'Applied to MCP-Atlas, TheAgentCompany, and SWE-Bench Pro, releasing 285 benchmark-ready tasks.',
-      'Evaluates whether agents can strategically seek clarification when critical information is missing, and analyzes the value, cost, and failure modes of clarification across frontier models.',
-    ],
+      'LHAW is a modular, dataset-agnostic pipeline for turning well-specified agent tasks into controllably underspecified variants and measuring how agents reason through ambiguity.',
   },
   {
     title: 'Assessing Robustness to Spurious Correlations in Post-Training Language Models',
-    meta: 'ICLR Spurious Correlation and Shortcut Learning Workshop, Oral, 2025',
+    meta: 'Workshop on Spurious Correlation and Shortcut Learning: Foundations and Solutions at ICLR 2025 (Oral)',
+    authors: [
+      'Julia Shuieh',
+      'Prasann Singhal',
+      'Apaar Shanker',
+      'John Heyer',
+      'George Pu',
+      'Samuel Denton',
+    ],
     links: [
       { label: 'paper', href: 'https://arxiv.org/abs/2505.05704' },
       { label: 'workshop', href: 'https://iclr.cc/virtual/2025/35109' },
     ],
     summary:
-      'A systematic evaluation of SFT, DPO, and KTO under synthetic spurious-correlation conditions across math reasoning, constrained instruction-following, and document-grounded QA.',
-    takeaways: [
-      'Models often degrade as spuriousness increases, but robustness depends on both task type and artifact type.',
-      'Preference-based methods can be more robust for math reasoning, while SFT can remain stronger for context-intensive tasks.',
-    ],
+      'Studies how post-training algorithms (SFT, DPO, and KTO) behave under synthetic spurious correlations across math, instruction-following, and document-grounded QA.',
   },
   {
     title: 'Balancing Cost and Effectiveness of Synthetic Data Generation Strategies for LLMs',
-    meta: 'NeurIPS FITML Workshop, 2024',
+    meta: 'Workshop on Fine-Tuning in Modern Machine Learning: Principles and Scalability at NeurIPS 2024',
+    authors: [
+      'Yung-Chieh Chan',
+      'George Pu',
+      'Apaar Shanker',
+      'Parth Suresh',
+      'Penn Jenks',
+      'John Heyer',
+      'Sam Denton',
+    ],
+    equalContribution: ['Yung-Chieh Chan', 'George Pu'],
     links: [
       { label: 'paper', href: 'https://arxiv.org/abs/2409.19759' },
       { label: 'blog', href: 'https://scale.com/blog/synthetic-data-fine-tuning-llms' },
     ],
     summary:
-      'A framework for choosing synthetic data generation strategies for fine-tuning under different seed-data and query-budget constraints.',
-    takeaways: [
-      'When budgets are tight, better answers to existing prompts can matter more than more prompts.',
-      'As query budgets grow, new prompt generation often becomes the stronger lever.',
-    ],
+      'Compares synthetic-data strategies for fine-tuning, showing how the best choice shifts with seed-data quality and teacher-model query budget.',
   },
   {
-    title: '"Kelly is a Warm Person, Joseph is a Role Model"',
+    title: '"Kelly is a Warm Person, Joseph is a Role Model": Gender Biases in LLM-Generated Reference Letters',
     meta: 'EMNLP Findings, 2023',
+    authors: [
+      'Yixin Wan',
+      'George Pu',
+      'Jiao Sun',
+      'Aparna Garimella',
+      'Kai-Wei Chang',
+      'Nanyun Peng',
+    ],
     links: [
       { label: 'paper', href: 'https://arxiv.org/abs/2310.09219' },
       { label: 'code', href: 'https://github.com/uclanlp/biases-llm-reference-letters' },
       { label: 'tweet', href: 'https://x.com/yixin_wan_/status/1721261056478306792' },
     ],
     summary:
-      'Investigating biases in LLM-generated professional documents and downstream socioeconomic impacts.',
-    takeaways: [
-      'LLM-generated professional writing can encode subtle but consequential fairness harms.',
-      'Bias evaluation should reflect realistic downstream use cases, not only generic benchmark prompts.',
-    ],
+      'Studies bias in LLM-generated reference letters, measuring differences in language, content, hallucinations, and potential downstream socioeconomic impacts.',
   },
   {
     title: 'Empirical Analysis of the Strengths and Weaknesses of PEFT Techniques for LLMs',
-    meta: 'ICLR ME-FoMo Workshop, 2023',
+    meta: 'Workshop on Mathematical and Empirical Understanding of Foundation Models at ICLR 2023',
+    authors: ['George Pu', 'Anirudh Jain', 'Jihan Yin', 'Russell Kaplan'],
     links: [
       { label: 'paper', href: 'https://arxiv.org/abs/2304.14999' },
       { label: 'tweet', href: 'https://x.com/_akhaliq/status/1652870295928053760' },
     ],
     summary:
-      'A benchmark comparing parameter-efficient fine-tuning methods across task types and data scales, with a focus on convergence and trainable-parameter tradeoffs.',
-    takeaways: [
-      'The best PEFT method depends heavily on task type and data availability.',
-      'PEFT can converge slower than full fine-tuning in low-data settings, even when it is more parameter-efficient.',
-    ],
+      'Benchmarks PEFT methods for LLM fine-tuning across tasks and data scales, highlighting tradeoffs in convergence, performance, and trainable parameters.',
   },
   {
     title: 'Interactive Information Capture and Retrieval with Prompts',
     meta: 'US Patent, 2021',
+    authors: ['Albert Pu', 'George Pu'],
     links: [
       { label: 'patent', href: 'https://patents.justia.com/patent/20210042662' },
     ],
     summary:
-      'Patent work on collecting, organizing, and retrieving information through prompt-driven interfaces.',
-    takeaways: [
-      'Explores prompt-based interfaces for capturing information at the moment it is generated.',
-      'Connects early information retrieval ideas with later work on agents and tool-assisted workflows.',
-    ],
+      'Patent work on prompt-driven interfaces for capturing, organizing, and retrieving information.',
   },
 ];
 
@@ -135,6 +151,20 @@ function Section({ id, title, children }) {
   );
 }
 
+function Authors({ names, equalContribution = [] }) {
+  return (
+    <p className="authors">
+      {names.map((name, index) => (
+        <React.Fragment key={name}>
+          {index > 0 && ', '}
+          {name === 'George Pu' ? <strong>{name}</strong> : name}
+          {equalContribution.includes(name) && '*'}
+        </React.Fragment>
+      ))}
+    </p>
+  );
+}
+
 function App() {
   return (
     <main className="site">
@@ -148,26 +178,25 @@ function App() {
           <div className="intro-copy">
             <h1>George Pu</h1>
             <p className="lede">
-              I am currently a research engineer at Scale AI building specialized agents for
-              enterprises through post-training and human/synthetic data pipelines. Previously, I
-              completed my MSCS at UCLA, where I researched AI safety and representation learning with the{' '}
+              I am a research engineer at{' '}
+              <ExternalLink href="https://scale.com/">Scale AI</ExternalLink>, where I build
+              specialized agents for enterprises through post-training and human/synthetic data pipelines.
+              Previously, I completed my MSCS at UCLA, researching AI safety and representation learning with the{' '}
               <ExternalLink href="http://web.cs.ucla.edu/~kwchang/publications_area/">
                 UCLA-NLP
               </ExternalLink>{' '}
               lab under{' '}
               <ExternalLink href="http://web.cs.ucla.edu/~kwchang/">
                 Prof. Kai-Wei Chang
-              </ExternalLink>
-              , and worked with the{' '}
+              </ExternalLink>, and worked with the{' '}
               <ExternalLink href="https://shangjingbo1226.github.io/lab/">SDLab</ExternalLink>{' '}
               under{' '}
               <ExternalLink href="https://shangjingbo1226.github.io/">
                 Prof. Jingbo Shang
               </ExternalLink>{' '}
-              during undergrad at UCSD. My research interests are in building reliable agents for
-              economically useful long-horizon tasks, including RL environment creation and
-              LLM post-training dynamics. Outside work, I enjoy hiking around national parks, going to
-              the gym, and playing tennis.
+              during undergrad at UCSD. My research interests center on building reliable agents for
+              economically useful long-horizon tasks, especially RL environments for knowledge work and
+              LLM post-training dynamics. Outside work, I enjoy national parks, the gym, and tennis.
             </p>
 
             <p className="fun-fact">
@@ -203,23 +232,21 @@ function App() {
                 <h3>
                   {item.title}
                 </h3>
+                <Authors names={item.authors} equalContribution={item.equalContribution} />
                 <p className="meta">{item.meta}</p>
-                <p>{item.summary}</p>
                 <div className="artifact-links">
-                  {item.links.map((link) => (
-                    <ExternalLink key={link.label} href={link.href}>
-                      {link.label}
-                    </ExternalLink>
+                  {item.links.map((link, index) => (
+                    <React.Fragment key={link.label}>
+                      {index > 0 && <span aria-hidden="true">/</span>}
+                      <ExternalLink href={link.href}>{link.label}</ExternalLink>
+                    </React.Fragment>
                   ))}
                 </div>
+                <p className="summary">{item.summary}</p>
               </div>
-              <ul>
-                {item.takeaways.map((takeaway) => (
-                  <li key={takeaway}>{takeaway}</li>
-                ))}
-              </ul>
             </article>
           ))}
+          <p className="contribution-note">* denotes equal contribution.</p>
         </div>
       </Section>
 
